@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="112399" started-at="2021-12-13T12:45:53Z" finished-at="2021-12-13T12:47:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="112399" started-at="2021-12-13T12:45:53Z" finished-at="2021-12-13T12:47:45Z">
+      <class name="com.testScript.MedChart_Test">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testScript.MedChart_Test@13d61fb]" name="init" is-config="true" duration-ms="19961" started-at="2021-12-13T12:45:53Z" finished-at="2021-12-13T12:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="createAlterRequest()[pri:1, instance:com.testScript.MedChart_Test@13d61fb]" name="createAlterRequest" duration-ms="90084" started-at="2021-12-13T12:46:13Z" finished-at="2021-12-13T12:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAlterRequest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScript.MedChart_Test@13d61fb]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-12-13T12:47:43Z" finished-at="2021-12-13T12:47:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAlterRequest status=SUCCESS method=MedChart_Test.createAlterRequest()[pri:1, instance:com.testScript.MedChart_Test@13d61fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.testScript.MedChart_Test@13d61fb]" name="quit" is-config="true" duration-ms="1777" started-at="2021-12-13T12:47:43Z" finished-at="2021-12-13T12:47:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.testScript.MedChart_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
